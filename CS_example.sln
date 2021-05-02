@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleSample", "ConsoleSam
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EnumExample", "EnumExample\EnumExample.csproj", "{DAE0508A-7DD8-4AB6-9488-F7C3C8E4BBF9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DelegateExample", "DelegateExample\DelegateExample.csproj", "{6D0DB461-6306-424E-987F-5588DDF87E3C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x86 = Debug|x86
@@ -33,6 +35,10 @@ Global
 		{DAE0508A-7DD8-4AB6-9488-F7C3C8E4BBF9}.Debug|x86.Build.0 = Debug|x86
 		{DAE0508A-7DD8-4AB6-9488-F7C3C8E4BBF9}.Release|x86.ActiveCfg = Release|x86
 		{DAE0508A-7DD8-4AB6-9488-F7C3C8E4BBF9}.Release|x86.Build.0 = Release|x86
+		{6D0DB461-6306-424E-987F-5588DDF87E3C}.Debug|x86.ActiveCfg = Debug|x86
+		{6D0DB461-6306-424E-987F-5588DDF87E3C}.Debug|x86.Build.0 = Debug|x86
+		{6D0DB461-6306-424E-987F-5588DDF87E3C}.Release|x86.ActiveCfg = Release|x86
+		{6D0DB461-6306-424E-987F-5588DDF87E3C}.Release|x86.Build.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
