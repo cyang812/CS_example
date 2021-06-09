@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="README.md" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\NamespaceTestPart1\NamespaceTestPart1.csproj" />
+    <ProjectReference Include="..\NamespaceTestPart2\NamespaceTestPart2.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="MutilNamespaceInOneAssembly">
+      <HintPath>..\MutilNamespaceInOneAssembly\bin\Debug\netcoreapp3.1\MutilNamespaceInOneAssembly.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
